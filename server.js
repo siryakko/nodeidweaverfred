@@ -6,7 +6,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.engine('hbs', exphbs({
-    defaultLayout: 'main';
+    defaultLayout: 'main',
     extname: ".hbs"
 }));
 
