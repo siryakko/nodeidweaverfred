@@ -13,10 +13,4 @@ describe("When I start my server", function(){
             .expect(200)
             .end(done);
     });
-    it ("should return Node at Idweaver by Fred", function(done) {
-        request
-            .get("/")
-            .expect("Node at idweaver By Fred")
-            .end(done);
-    });
 });
