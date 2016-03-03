@@ -18,5 +18,3 @@ Happy coding!
 The Cloud9 IDE team
 
 To test TEST
-
-git add. commit -
